@@ -1,0 +1,122 @@
+.titulo {
+    display: inline-block;
+    background-color: blueviolet;
+    color: azure;
+    text-align: center;
+}
+.header {
+    display: flex; width: max-content;
+    justify-content: space-between;
+    background-color: rgb(29, 1, 36);
+    background: linear-gradient(to left, rgb(29, 1, 36), rgb(173, 58, 202) );
+    font-family: Verdana;
+}
+.header h1 {
+    margin-right: 200px;
+    padding-left: 200px;
+    text-align: center;
+    justify-content: center;
+    color: azure;
+    
+}
+.navbar {
+    text-decoration: none;
+    justify-content: right;
+    text-align: center;
+    background-color: rgb(29, 1, 36);
+}
+
+.navbar ul {
+    display: flex;
+    width: 680px;
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: azure;
+    
+}
+.header a img {
+    width: 120px;
+}
+
+.body {
+        /* Fallback para navegadores que no admiten degradados */
+        background-color: rgb(39, 2, 58);
+        
+        /* Degradado lineal para navegadores modernos */
+        background: linear-gradient(to right, rgb(39, 2, 58), rgb(222, 181, 243));
+}
+#carrito {
+    width: 120px;
+    height: 80px;
+    padding-right: 10px;
+    padding-left: 0;
+}
+.section {
+    display: flex;
+    
+}
+.section img {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+body ul, ol, h2, footer {
+    color: azure;
+}
+h2 {
+    color: azure ;
+}
+a {
+    color: azure;
+}
+
+.navbar-galery {
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    background-color: rgb(29, 1, 36);
+    padding: 20px;
+
+}
+
+.navbar-galery ul {
+    display: flex;
+    width: 680px;
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navbar-galery ul li a{
+    text-decoration: none;
+    color: azure;
+    
+}
+
+.formulario {
+    color: azure;
+}
+
+.h1-contacto {
+    color: azure;
+}
+
+.sobre-section {
+    color: azure;
+    text-align: center;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    padding-right: 10px;
+    padding-left: 0;
+    display: flex;
+}
